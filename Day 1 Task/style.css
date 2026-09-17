@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #eaf4f8;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    background: #1e3c72;
+    color: white;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.biography {
+    background-color: #f8f3e7;
+}
+.achivement {
+    background-color: #eee;
+}
+.timeline {
+    background-color: #f5eee1;
+}
+
+section h2 {
+    color: #1e3c72;
+    margin-bottom: 15px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #eaf4f8;
+}
+
+.hero img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #1e3c72;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    .hero img {
+        width: 220px;
+    }
+}
