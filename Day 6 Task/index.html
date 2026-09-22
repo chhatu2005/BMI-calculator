@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>BMI Calculator</title>
+</head>
+<body>
+   <div class="container">
+
+    <div class="calculator">
+    <h1>BMI Calculator</h1>
+
+   <div class="input-box">
+    <label for="height">Height (cm)</label>
+    <input id="height" type="number" placeholder="Enter Height"/>
+   </div>
+
+   <div class="input-box">
+    <label for="Weight">Weight (Kg)</label>
+    <input id="weight" type="number" placeholder="Enter Weight"/>
+   </div>
+
+   <div>
+    <button onclick="calculateBMI()" class="calculate-btn">Calculate BMI</button>
+    <button onclick="resetBMI()" class="reset-btn">Reset</button>
+
+    <div id="result" class="result"></div>
+   </div>
+    </div>
+   <div class="info">
+    <h2>BMI Categories</h2>
+
+    <div class="category">
+        <span>Below 18.5</span>
+        <span>Under Weight</span>
+    </div>
+
+    <div class="category">
+        <span>18.5 - 24.9</span>
+        <span>Normal Weight</span>
+    </div>
+
+      <div class="category">
+                <span>25 - 29.9</span>
+                <span>Over Weight</span>
+            </div>
+
+             <div class="category">
+                <span>30 or above</span>
+                <span>Obesity</span>
+            </div>
+
+            <h2>BMI formula</h2>
+            <p class="formula">BMI = Weight / (Height x Height) </p>
+
+   </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
